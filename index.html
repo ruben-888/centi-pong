@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">PONG</h1>
+        <div class="score-container">
+            <div class="player-score">
+                <span class="label">PLAYER</span>
+                <span id="playerScore" class="score">0</span>
+            </div>
+            <div class="computer-score">
+                <span class="label">COMPUTER</span>
+                <span id="computerScore" class="score">0</span>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="controls">
+            <p>Use W/S or ↑/↓ to control your paddle</p>
+            <p>Press SPACE to start</p>
+        </div>
+    </div>
+    <script src="pong.js"></script>
+</body>
+</html>
